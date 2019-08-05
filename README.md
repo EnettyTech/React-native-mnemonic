@@ -18,7 +18,7 @@
 3. In XCode, in the project navigator, select your project. Add `libRnEzKeystore.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
-``OR install with cocoapods``
+#### OR install with cocoapods
  1. Cd folder `ios`
  2. Init pods
 	`Pod init`
