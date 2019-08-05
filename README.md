@@ -18,6 +18,17 @@
 3. In XCode, in the project navigator, select your project. Add `libRnEzKeystore.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
+``OR install with cocoapods``
+ 1. Cd folder `ios`
+ 2. Init pods
+	`Pod init`
+ 3. Add module
+	```
+	  pod 'react-native-rn-ez-keystore', path:'../node_modules/react-native-rn-ez-keystore'
+	```
+ 4. Install pod, in terminal run:
+  `pod install`
+
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
